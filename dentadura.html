@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selección de Dentadura</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="selection">
+        <h1>Selecciona una parte de la dentadura</h1>
+        <button id="upperTeethButton">Parte Superior</button>
+        <button id="lowerTeethButton">Parte Inferior</button>
+    </div>
+
+    <script>
+        document.getElementById('upperTeethButton').addEventListener('click', function() {
+            window.location.href = 'upper_teeth.html';  // Redirige a la parte superior de la dentadura
+        });
+        
+        document.getElementById('lowerTeethButton').addEventListener('click', function() {
+            window.location.href = 'lower_teeth.html';  // Redirige a la parte inferior de la dentadura
+        });
+    </script>
+</body>
+</html>
