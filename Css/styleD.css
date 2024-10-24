@@ -1,0 +1,128 @@
+/* Reseteo de estilos predeterminados del navegador */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales del body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Estilos del header */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para la selección de dentadura */
+.selection {
+    text-align: center;
+    margin-top: 50px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.selection img {
+    cursor: pointer;
+    width: 500px;
+    margin: 5px 0; /* Espaciado entre las imágenes */
+    transition: transform 0.3s ease;
+}
+
+.selection img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .footer-content p,
+footer .footer-content .socials {
+    margin-bottom: 10px;
+}
+
+footer .footer-content .socials a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+footer .footer-bottom {
+    margin-top: 10px;
+}
+
+/* Media queries para hacer el diseño responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .selection img {
+        width: 200px;
+        margin: 15px;
+    }
+
+    footer .footer-content {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .selection img {
+        width: 150px;
+    }
+
+    .selection h1 {
+        font-size: 24px;
+    }
+}

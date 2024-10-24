@@ -4,22 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Selección de Dentadura</title>
-    <link rel="stylesheet" href="Css/styles.css">
+    <link rel="stylesheet" href="Css/styleD.css">
 </head>
 <body>
+    <header>
+        <div class="logo">USC</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="selection">
         <h1>Selecciona una parte de la dentadura</h1>
-        <button id="upperTeethButton">Parte Superior</button>
-        <button id="lowerTeethButton">Parte Inferior</button>
+        <img src="Img/dientesA.png" id="parteSupDentadura" alt="Parte Superior Dentadura" />
+        <img src="Img/dientesB.png" id="parteInfDentadura" alt="Parte Inferior Dentadura" />
+
     </div>
+    <footer>
+        <div class="footer-content">
+            <p>Contacto: <a href="mailto:anatomiadentalusc@gmail.com">anatomiadentalusc@gmail.com</a></p> <!-- Enlace de correo electrónico -->
+            <div class="socials">
+                <!-- Enlaces a redes sociales -->
+                <a href="https://facebook.com" target="_blank">Facebook</a> | 
+                <a href="https://twitter.com" target="_blank">Twitter</a> | 
+                <a href="https://instagram.com" target="_blank">Instagram</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 anatomia dental Company - Todos los derechos reservados.</p> <!-- Información de derechos de autor -->
+        </div>
+    </footer>
 
     <script>
-        document.getElementById('upperTeethButton').addEventListener('click', function() {
-            window.location.href = 'upper_teeth.html';  // Redirige a la parte superior de la dentadura
+        document.getElementById('parteSupDentadura').addEventListener('click', function() {
+            window.location.href = 'parteSupDentadura.html';  // Redirige a la parte superior de la dentadura
         });
         
-        document.getElementById('lowerTeethButton').addEventListener('click', function() {
-            window.location.href = 'lower_teeth.html';  // Redirige a la parte inferior de la dentadura
+        document.getElementById('parteInfDentadura').addEventListener('click', function() {
+            window.location.href = 'parteInfDentadura.html';  // Redirige a la parte inferior de la dentadura
         });
     </script>
 </body>
