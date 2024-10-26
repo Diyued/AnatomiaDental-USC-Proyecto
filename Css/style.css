@@ -136,3 +136,9 @@ footer a:hover {
 .selection img:hover {
     transform: scale(1.1);
 }
+#numero {
+    background-color: lightgrey;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+  }
