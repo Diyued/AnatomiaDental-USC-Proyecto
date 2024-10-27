@@ -142,3 +142,28 @@ footer a:hover {
     border: 1px solid black;
     border-radius: 5px;
   }
+  /* Estilo para el título o descripción del diente */
+#carrusel p {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px; /* Ajusta el margen para la separación del texto */
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilo para los botones */
+.button-container {
+    text-align: center;
+    margin-top: 40px; /* Ajusta este margen para mover los botones más abajo */
+}
+
+.button-container button {
+    font-size: 16px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #1d3ece; /* Estilo al pasar el mouse por encima */
+}

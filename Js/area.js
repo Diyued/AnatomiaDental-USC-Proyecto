@@ -28,7 +28,7 @@ const dientesInfo = {
             "../Img/tooth16_4.png",
             "../Img/tooth16_5.png"
         ],
-        description: "Información específica del Tercer Molar superior"
+        description: "Información específica del Primer Molar superior"
     },
     tooth15: {
         images: [
@@ -89,7 +89,7 @@ const dientesInfo = {
             "../Img/tooth18_4.png",
             "../Img/tooth18_5.png"
         ],
-        description: "Información específica del tercer Molar Superior Izquierdo"
+        description: "Información específica del tercer Molar Superior"
     },
     tooth27: {
         images: [
@@ -109,7 +109,7 @@ const dientesInfo = {
             "../Img/tooth16_4.png",
             "../Img/tooth16_5.png"
         ],
-        description: "Información específica del tercer Molar superior"
+        description: "Información específica del primer Molar superior"
     },
     tooth25: {
         images: [
@@ -242,6 +242,86 @@ const dientesInfo = {
         ],
         description: "Información específica del tercer molar inferior"
     },
+    tooth31: {
+        images: [
+            "../Img/tooth41_1.png",
+            "../Img/tooth41_2.png",
+            "../Img/tooth41_3.png",
+            "../Img/tooth41_4.png",
+            "../Img/tooth41_5.png"
+        ],
+        description: "Información específica del Incisivo central inferior"
+    },
+    tooth32: {
+        images: [
+            "../Img/tooth42_1.png",
+            "../Img/tooth42_2.png",
+            "../Img/tooth42_3.png",
+            "../Img/tooth42_4.png",
+            "../Img/tooth42_5.png"
+        ],
+        description: "Información específica del Incisivo lateral inferior"
+    },
+    tooth33: {
+        images: [
+            "../Img/tooth43_1.png",
+            "../Img/tooth43_2.png",
+            "../Img/tooth43_3.png",
+            "../Img/tooth43_4.png",
+            "../Img/tooth43_5.png"
+        ],
+        description: "Información específica del canino inferior"
+    },
+    tooth34: {
+        images: [
+            "../Img/tooth44_1.png",
+            "../Img/tooth44_2.png",
+            "../Img/tooth44_3.png",
+            "../Img/tooth44_4.png",
+            "../Img/tooth44_5.png"
+        ],
+        description: "Información específica del primer premolar inferior"
+    },
+    tooth35: {
+        images: [
+            "../Img/tooth45_1.png",
+            "../Img/tooth45_2.png",
+            "../Img/tooth45_3.png",
+            "../Img/tooth45_4.png",
+            "../Img/tooth45_5.png"
+        ],
+        description: "Información específica del segundo premolar inferior"
+    },
+    tooth36: {
+        images: [
+            "../Img/tooth46_1.png",
+            "../Img/tooth46_2.png",
+            "../Img/tooth46_3.png",
+            "../Img/tooth46_4.png",
+            "../Img/tooth46_5.png"
+        ],
+        description: "Información específica del primer molar inferior"
+    },
+    tooth37: {
+        images: [
+            "../Img/tooth47_1.png",
+            "../Img/tooth47_2.png",
+            "../Img/tooth47_3.png",
+            "../Img/tooth47_4.png",
+            "../Img/tooth47_5.png"
+        ],
+        description: "Información específica del segundo molar inferior"
+    },
+    tooth38: {
+        images: [
+            "../Img/tooth48_1.png",
+            "../Img/tooth48_2.png",
+            "../Img/tooth48_3.png",
+            "../Img/tooth48_4.png",
+            "../Img/tooth48_5.png"
+        ],
+        description: "Información específica del tercer molar inferior"
+    },
 };
 
 // Selecciona todos los dientes con la clase "tooth" (esto puede depender del ID, así que los seleccionamos por ID)
@@ -259,7 +339,7 @@ teeth.forEach(tooth => {
         const numeros = document.getElementById('numero');
         numeros.textContent = `Diente ${tooth.id.replace('tooth', '')}`; // Actualiza el número del diente
         numeros.style.display = 'block';
-        numeros.style.left = `${event.pageX + 10}px`; 
+        numeros.style.left = `${event.pageX + 10}px`;
         numeros.style.top = `${event.pageY + 10}px`;
     });
 
@@ -277,9 +357,14 @@ function showImageCarousel(dienteId) {
 
     if (diente) {
         // Genera dinámicamente las imágenes del diente
-        carrusel.innerHTML = diente.images.map((image, index) => `
-            <img src="${image}" alt="Imagen ${index + 1}" style="${index === 0 ? 'display: inline;' : 'display: none;'}">
-        `).join('');
+        carrusel.innerHTML = `
+        <p>${diente.description}</p> <!-- Muestra la descripción del diente -->
+        `;
+
+        carrusel.innerHTML += diente.images.map((image, index) => `
+    <img src="${image}" alt="Imagen ${index + 1}" style="display: ${index === 0 ? 'inline' : 'none'}; width: 400px; height: 400px;">
+`).join('');
+
 
         carrusel.innerHTML += `
             <div class="button-container">
@@ -287,7 +372,7 @@ function showImageCarousel(dienteId) {
                 <button id="next">Siguiente</button>
                 <button id="atras">Atras</button>
             </div>
-            <p>${diente.description}</p> <!-- Muestra la descripción del diente -->
+            
         `;
 
         const prevButton = document.getElementById('prev');
