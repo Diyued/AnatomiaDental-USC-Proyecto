@@ -8,7 +8,7 @@ const dientesInfo = {
             "../Img/tooth18_4.png",
             "../Img/tooth18_5.png"
         ],
-        description: "Tercer Molar Superior"
+        description: "Información específica del Tercer Molar Superior"
     },
     tooth17: {
         images: [
@@ -18,7 +18,7 @@ const dientesInfo = {
             "../Img/tooth17_4.png",
             "../Img/tooth17_5.png"
         ],
-        description: "Segundo Molar Superior"
+        description: "Información específica del Segundo Molar Superior"
     },
     tooth16: {
         images: [
@@ -28,7 +28,7 @@ const dientesInfo = {
             "../Img/tooth16_4.png",
             "../Img/tooth16_5.png"
         ],
-        description: "Tercer Molar superior"
+        description: "Información específica del Tercer Molar superior"
     },
     tooth15: {
         images: [
@@ -38,7 +38,7 @@ const dientesInfo = {
             "../Img/tooth15_4.png",
             "../Img/tooth15_5.png"
         ],
-        description: "Segundo Premolar Superior"
+        description: "Información específica del Segundo Premolar Superior"
     },
     tooth14: {
         images: [
@@ -48,7 +48,7 @@ const dientesInfo = {
             "../Img/tooth14_4.png",
             "../Img/tooth14_5.png"
         ],
-        description: "Primer Premolar Superior"
+        description: "Información específica del Primer Premolar Superior"
     },
     tooth13: {
         images: [
@@ -58,7 +58,7 @@ const dientesInfo = {
             "../Img/tooth13_4.png",
             "../Img/tooth13_5.png"
         ],
-        description: "Canino Superior"
+        description: "Información específica del Canino Superior"
     },
     tooth12: {
         images: [
@@ -68,7 +68,7 @@ const dientesInfo = {
             "../Img/tooth12_4.png",
             "../Img/tooth12_5.png"
         ],
-        description: "Incisivo Lateral Superior"
+        description: "Información específica del Incisivo Lateral Superior"
     },
     tooth11: {
         images: [
@@ -78,7 +78,7 @@ const dientesInfo = {
             "../Img/tooth11_4.png",
             "../Img/tooth11_5.png"
         ],
-        description: "Incisivo Central Superior"
+        description: "Información específica del Incisivo Central Superior"
     },
     // Parte Superior Izquierda
     tooth28: {
@@ -89,7 +89,7 @@ const dientesInfo = {
             "../Img/tooth18_4.png",
             "../Img/tooth18_5.png"
         ],
-        description: "Tercer Molar Superior Izquierdo"
+        description: "Información específica del tercer Molar Superior Izquierdo"
     },
     tooth27: {
         images: [
@@ -99,7 +99,7 @@ const dientesInfo = {
             "../Img/tooth17_4.png",
             "../Img/tooth17_5.png"
         ],
-        description: "Segundo Molar Superior"
+        description: "Información específica del segundo Molar Superior"
     },
     tooth26: {
         images: [
@@ -109,7 +109,7 @@ const dientesInfo = {
             "../Img/tooth16_4.png",
             "../Img/tooth16_5.png"
         ],
-        description: "Tercer Molar superior"
+        description: "Información específica del tercer Molar superior"
     },
     tooth25: {
         images: [
@@ -119,7 +119,7 @@ const dientesInfo = {
             "../Img/tooth15_4.png",
             "../Img/tooth15_5.png"
         ],
-        description: "Segundo Premolar Superior"
+        description: "Información específica del segundo Premolar Superior"
     },
     tooth24: {
         images: [
@@ -129,7 +129,7 @@ const dientesInfo = {
             "../Img/tooth14_4.png",
             "../Img/tooth14_5.png"
         ],
-        description: "Primer Premolar Superior"
+        description: "Información específica del primer Premolar Superior"
     },
     tooth23: {
         images: [
@@ -139,7 +139,7 @@ const dientesInfo = {
             "../Img/tooth13_4.png",
             "../Img/tooth13_5.png"
         ],
-        description: "Canino Superior"
+        description: "Información específica del canino Superior"
     },
     tooth22: {
         images: [
@@ -149,7 +149,7 @@ const dientesInfo = {
             "../Img/tooth12_4.png",
             "../Img/tooth12_5.png"
         ],
-        description: "Incisivo Lateral Superior"
+        description: "Información específica del Incisivo Lateral Superior"
     },
     tooth21: {
         images: [
@@ -159,7 +159,7 @@ const dientesInfo = {
             "../Img/tooth11_4.png",
             "../Img/tooth11_5.png"
         ],
-        description: "Incisivo Central Superior"
+        description: "Información específica del Incisivo Central Superior"
     },
     //Parte Inferior Derecha
     tooth41: {
@@ -168,47 +168,47 @@ const dientesInfo = {
             "../Img/tooth41_2.png",
             "../Img/tooth41_3.png",
             "../Img/tooth41_4.png",
-            "../Img/tooth18_5.png"
+            "../Img/tooth41_5.png"
         ],
-        description: "Inicisivo central inferior"
+        description: "Información específica del Incisivo central inferior"
     },
     tooth42: {
         images: [
             "../Img/tooth42_1.png",
             "../Img/tooth42_2.png",
             "../Img/tooth42_3.png",
-            "../Img/tooth17_4.png",
-            "../Img/tooth17_5.png"
+            "../Img/tooth42_4.png",
+            "../Img/tooth42_5.png"
         ],
-        description: "Inicisivo lateral inferior"
+        description: "Información específica del Incisivo lateral inferior"
     },
     tooth43: {
         images: [
             "../Img/tooth43_1.png",
             "../Img/tooth43_2.png",
             "../Img/tooth43_3.png",
-            "../Img/tooth16_4.png",
-            "../Img/tooth16_5.png"
+            "../Img/tooth43_4.png",
+            "../Img/tooth43_5.png"
         ],
-        description: "Canino inferior"
+        description: "Información específica del canino inferior"
     },
     tooth44: {
         images: [
             "../Img/tooth44_1.png",
             "../Img/tooth44_2.png",
             "../Img/tooth44_3.png",
-            "../Img/tooth15_4.png",
-            "../Img/tooth15_5.png"
+            "../Img/tooth44_4.png",
+            "../Img/tooth44_5.png"
         ],
-        description: "Primer premolar inferior"
+        description: "Información específica del primer premolar inferior"
     },
     tooth45: {
         images: [
             "../Img/tooth45_1.png",
             "../Img/tooth45_2.png",
             "../Img/tooth45_3.png",
-            "../Img/tooth14_4.png",
-            "../Img/tooth14_5.png"
+            "../Img/tooth45_4.png",
+            "../Img/tooth45_5.png"
         ],
         description: "Información específica del segundo premolar inferior"
     },
@@ -217,8 +217,8 @@ const dientesInfo = {
             "../Img/tooth46_1.png",
             "../Img/tooth46_2.png",
             "../Img/tooth46_3.png",
-            "../Img/tooth13_4.png",
-            "../Img/tooth13_5.png"
+            "../Img/tooth46_4.png",
+            "../Img/tooth46_5.png"
         ],
         description: "Información específica del primer molar inferior"
     },
@@ -227,8 +227,8 @@ const dientesInfo = {
             "../Img/tooth47_1.png",
             "../Img/tooth47_2.png",
             "../Img/tooth47_3.png",
-            "../Img/tooth12_4.png",
-            "../Img/tooth12_5.png"
+            "../Img/tooth47_4.png",
+            "../Img/tooth47_5.png"
         ],
         description: "Información específica del segundo molar inferior"
     },
@@ -237,8 +237,8 @@ const dientesInfo = {
             "../Img/tooth48_1.png",
             "../Img/tooth48_2.png",
             "../Img/tooth48_3.png",
-            "../Img/tooth11_4.png",
-            "../Img/tooth11_5.png"
+            "../Img/tooth48_4.png",
+            "../Img/tooth48_5.png"
         ],
         description: "Información específica del tercer molar inferior"
     },
